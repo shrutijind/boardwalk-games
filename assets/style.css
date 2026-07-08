@@ -1,8 +1,12 @@
-h1{
-    color:red;
-}
-p{
+/**Google Fonts inmport Code**/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
-color:blue;
+body{
+
+font-family:Inter;
+
+}
+h1{
+font-family:Macodo;
 
 }
