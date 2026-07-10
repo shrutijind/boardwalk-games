@@ -41,12 +41,7 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-/* Game library cards */
 
-#new-games .card,
-#fav-games .card {
-    border: none;
-}
 /* Navbar */
 
 #navbar {
@@ -75,6 +70,45 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
+/* Footer / contact */
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -86,7 +120,8 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
- /* Media queries */
+
+/* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
